@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "target": "es5",
+    "strict": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "es2015"
+    ]
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
+    "./src/**/*.vue",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
